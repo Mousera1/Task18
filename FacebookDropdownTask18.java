@@ -60,11 +60,6 @@ public class FacebookDropdownTask18 {
 		element3.click();
 		
 		System.out.println("sign up button clicked");
-        driver.get("https://www.facebook.com/recover/code/?em[0]=mfvijay14%40gmail.com&rm=send_email&cuid=AYjgBrZnNergiYawU1XBwiwmyMJQxfImtnGip3Bh0dubSjDW2jV5vUWSicuXAU7TTCPjE6uEF7C8rj5y0o1bdlq9-TjN3O_ydymP_FXVlPa3-39q0JsIq7ehlnMDG4RahfuJ257i5DEUXJhWU039wcjZXG_AAN62Bcs1WZQW5jEY1obg7pmMbsg9sAHnBEiFfkCxQvD1-jAwl_ngkfMWVRu8ZrzUXz_9gv--ZKdwk04Low&hash=AUZU-HTYM9hgtEOyS4M");
-
-		WebElement element4 = driver.findElement(By.name("n"));
-		element4.click();
-		System.out.println("code given manually");
 		
 		if(driver.getTitle().contains("Facebook")){
 			System.out.println("Successfully Registered on Facebook");
