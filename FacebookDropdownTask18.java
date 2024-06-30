@@ -60,7 +60,7 @@ public class FacebookDropdownTask18 {
 		element3.click();
 		
 		System.out.println("sign up button clicked");
-		
+		//after one time code given manually
 		if(driver.getTitle().contains("Facebook")){
 			System.out.println("Successfully Registered on Facebook");
 		}
